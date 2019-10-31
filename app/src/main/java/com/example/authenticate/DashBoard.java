@@ -25,7 +25,7 @@ public class DashBoard extends AppCompatActivity {
         WebSettings webSettings = WebView.getSettings();//allows us to connect to the websettings
         webSettings.setJavaScriptEnabled(true);//// Allows loading  web page(s) that use JavaScript
 
-        WebView.loadUrl("http://www.github.com"); //Load target URL
+        WebView.loadUrl("http://www.targetwebpage.com"); //Load target URL, in my case i have loaded targetwebpage.com
 
         WebView.setWebViewClient(new MyWebViewClient());// we create an instance that basically provides a webclient that opens links clicked by user
 
